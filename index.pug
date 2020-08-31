@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+html(lang="fr")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Sidebar Menu Using HTML CSS & JAVASCRIPT
+    //css 
+    link(rel="stylesheet", href="assets/css/index.css")
+    //box icons css 
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css")
+
+    
+  body#body
+
+    .app-navbar#navbar
+      nav.nav
+        div
+          a.nav__logo
+            img(src="https://d1fdloi71mui9q.cloudfront.net/8Jj3NWeSTqSEGAk7sXpA_3YUSgS1GVYF4812i", alt="logo codwerk").nav__logo-icon  
+            span.nav__logo-test Codwerk
+
+          .nav__toggle#nav-toggle
+            i.bx.bx-chevron-right
+
+          ul.nav__list
+              a.nav__link.active(href="#")
+                i.bx.bx-grid-alt.nav__icon
+                span.nav__text Home
+
+              a.nav__link(href="#")
+                i.bx.bx-user.nav__icon
+                span.nav__text User
+            
+              a.nav__link(href="#")
+                i.bx.bx-bell.nav__icon
+                span.nav__text Notifications
+
+              a.nav__link(href="#")
+                i.bx.bx-heart.nav__icon
+                span.nav__text Favoris
+
+              a.nav__link(href="#")
+                i.bx.bx-message-rounded.nav__icon
+                span.nav__text Messages
+        
+        a.nav__link(href="")
+          i.bx.bx-log-out-circle.nav__icon
+          span.nav__text Se déconnecter
+
+    h2 Sidebar Menu Using HTML CSS & JAVASCRIPT
+    p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi perspiciatis vitae asperiores quod fugiat. Nulla id reiciendis labore vel eaque quos voluptates consectetur cum ratione hic qui, delectus perferendis commodi!
+
+
+
+    script(src="assets/js/index.js")
